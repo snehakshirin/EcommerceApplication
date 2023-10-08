@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-02T17:51:13 IST" name="Suite" finished-at="2023-10-02T17:52:21 IST" duration-ms="68278">
+    <groups>
+      <group name="errorvalidating">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" name="LoginErrorValidation" class="learningselenium.Tests.ErrorValidationsTest"/>
+      </group> <!-- errorvalidating -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" name="submitOrder" class="learningselenium.Tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-10-02T17:51:13 IST" name="error validations" finished-at="2023-10-02T17:52:05 IST" duration-ms="52551">
+      <class name="learningselenium.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:13 IST" name="launchApplication" finished-at="2023-10-02T17:51:28 IST" duration-ms="14866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:28 IST" name="LoginErrorValidation" finished-at="2023-10-02T17:51:30 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:30 IST" name="closeApplication" finished-at="2023-10-02T17:51:49 IST" duration-ms="18961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:49 IST" name="launchApplication" finished-at="2023-10-02T17:51:59 IST" duration-ms="9240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:59 IST" name="ProductErrorValidation" finished-at="2023-10-02T17:52:02 IST" duration-ms="3790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:52:02 IST" name="closeApplication" finished-at="2023-10-02T17:52:05 IST" duration-ms="2814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- learningselenium.Tests.ErrorValidationsTest -->
+    </test> <!-- error validations -->
+    <test started-at="2023-10-02T17:51:13 IST" name="submit order" finished-at="2023-10-02T17:52:21 IST" duration-ms="68278">
+      <class name="learningselenium.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:14 IST" name="launchApplication" finished-at="2023-10-02T17:51:25 IST" duration-ms="11537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:25 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T17:51:34 IST" duration-ms="8574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:34 IST" name="closeApplication" finished-at="2023-10-02T17:51:45 IST" duration-ms="11008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:45 IST" name="launchApplication" finished-at="2023-10-02T17:51:51 IST" duration-ms="6323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:51 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T17:51:59 IST" duration-ms="7688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Just@me12, email=nallasneha83@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:59 IST" name="closeApplication" finished-at="2023-10-02T17:52:10 IST" duration-ms="11029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:10 IST" name="launchApplication" finished-at="2023-10-02T17:52:17 IST" duration-ms="7497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:17 IST" name="orderHistoryTest" finished-at="2023-10-02T17:52:19 IST" depends-on-methods="learningselenium.Tests.SubmitOrderTest.submitOrder" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:19 IST" name="closeApplication" finished-at="2023-10-02T17:52:21 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- learningselenium.Tests.SubmitOrderTest -->
+    </test> <!-- submit order -->
+  </suite> <!-- Suite -->
+</testng-results>

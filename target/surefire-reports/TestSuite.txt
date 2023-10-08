@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 122.749 s <<< FAILURE! - in TestSuite
+LoginErrorValidation(learningselenium.Tests.ErrorValidationsTest)  Time elapsed: 1.789 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrec email or password.]
+	at learningselenium.Tests.ErrorValidationsTest.LoginErrorValidation(ErrorValidationsTest.java:29)
+
+closeApplication(learningselenium.Tests.SubmitOrderTest)  Time elapsed: 30.45 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to stop.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b61e2fc8e012d8b74de2ef019056813c, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65348/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b61e2fc8e012d8b74de2ef019056813c
+Caused by: java.util.concurrent.ExecutionException: 
+org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Process timed out after waiting for 20000 ms.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown
+
