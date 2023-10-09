@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T17:51:13 IST" name="Suite" finished-at="2023-10-02T17:52:21 IST" duration-ms="68278">
+  <suite started-at="2023-10-09T20:27:59 IST" name="Suite" finished-at="2023-10-09T20:28:48 IST" duration-ms="49013">
     <groups>
       <group name="errorvalidating">
         <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" name="LoginErrorValidation" class="learningselenium.Tests.ErrorValidationsTest"/>
@@ -11,41 +11,41 @@
         <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" name="submitOrder" class="learningselenium.Tests.SubmitOrderTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2023-10-02T17:51:13 IST" name="error validations" finished-at="2023-10-02T17:52:05 IST" duration-ms="52551">
+    <test started-at="2023-10-09T20:27:59 IST" name="error validations" finished-at="2023-10-09T20:28:35 IST" duration-ms="35944">
       <class name="learningselenium.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:13 IST" name="launchApplication" finished-at="2023-10-02T17:51:28 IST" duration-ms="14866" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:27:59 IST" name="launchApplication" finished-at="2023-10-09T20:28:13 IST" duration-ms="13637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:28 IST" name="LoginErrorValidation" finished-at="2023-10-02T17:51:30 IST" duration-ms="2649" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:28:13 IST" name="LoginErrorValidation" finished-at="2023-10-09T20:28:14 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:30 IST" name="closeApplication" finished-at="2023-10-02T17:51:49 IST" duration-ms="18961" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:28:15 IST" name="closeApplication" finished-at="2023-10-09T20:28:16 IST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:49 IST" name="launchApplication" finished-at="2023-10-02T17:51:59 IST" duration-ms="9240" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:28:16 IST" name="launchApplication" finished-at="2023-10-09T20:28:27 IST" duration-ms="11573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:51:59 IST" name="ProductErrorValidation" finished-at="2023-10-02T17:52:02 IST" duration-ms="3790" status="PASS">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:28:27 IST" name="ProductErrorValidation" finished-at="2023-10-09T20:28:33 IST" duration-ms="5979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-02T17:52:02 IST" name="closeApplication" finished-at="2023-10-02T17:52:05 IST" duration-ms="2814" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.ErrorValidationsTest@63798ca7]" started-at="2023-10-09T20:28:33 IST" name="closeApplication" finished-at="2023-10-09T20:28:35 IST" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- learningselenium.Tests.ErrorValidationsTest -->
     </test> <!-- error validations -->
-    <test started-at="2023-10-02T17:51:13 IST" name="submit order" finished-at="2023-10-02T17:52:21 IST" duration-ms="68278">
+    <test started-at="2023-10-09T20:27:59 IST" name="submit order" finished-at="2023-10-09T20:28:48 IST" duration-ms="49013">
       <class name="learningselenium.Tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:14 IST" name="launchApplication" finished-at="2023-10-02T17:51:25 IST" duration-ms="11537" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:00 IST" name="launchApplication" finished-at="2023-10-09T20:28:12 IST" duration-ms="12370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:25 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T17:51:34 IST" duration-ms="8574" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:12 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-09T20:28:21 IST" duration-ms="8975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:34 IST" name="closeApplication" finished-at="2023-10-02T17:51:45 IST" duration-ms="11008" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:21 IST" name="closeApplication" finished-at="2023-10-09T20:28:23 IST" duration-ms="1289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:45 IST" name="launchApplication" finished-at="2023-10-02T17:51:51 IST" duration-ms="6323" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:23 IST" name="launchApplication" finished-at="2023-10-09T20:28:33 IST" duration-ms="10274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:51 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T17:51:59 IST" duration-ms="7688" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:33 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-09T20:28:38 IST" duration-ms="4847" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,19 +75,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:51:59 IST" name="closeApplication" finished-at="2023-10-02T17:52:10 IST" duration-ms="11029" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:38 IST" name="closeApplication" finished-at="2023-10-09T20:28:39 IST" duration-ms="1142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:10 IST" name="launchApplication" finished-at="2023-10-02T17:52:17 IST" duration-ms="7497" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:39 IST" name="launchApplication" finished-at="2023-10-09T20:28:46 IST" duration-ms="7039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:17 IST" name="orderHistoryTest" finished-at="2023-10-02T17:52:19 IST" depends-on-methods="learningselenium.Tests.SubmitOrderTest.submitOrder" duration-ms="1536" status="PASS">
+        <test-method signature="orderHistoryTest()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:46 IST" name="orderHistoryTest" finished-at="2023-10-09T20:28:48 IST" depends-on-methods="learningselenium.Tests.SubmitOrderTest.submitOrder" duration-ms="1801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-02T17:52:19 IST" name="closeApplication" finished-at="2023-10-02T17:52:21 IST" duration-ms="2079" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:learningselenium.Tests.SubmitOrderTest@2e1ef60]" started-at="2023-10-09T20:28:48 IST" name="closeApplication" finished-at="2023-10-09T20:28:48 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
