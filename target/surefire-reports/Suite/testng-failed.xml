@@ -11,8 +11,21 @@
           <include name="launchApplication"/>
           <include name="closeApplication"/>
           <include name="LoginErrorValidation"/>
+          <include name="ProductErrorValidation"/>
         </methods>
       </class> <!-- learningselenium.Tests.ErrorValidationsTest -->
     </classes>
   </test> <!-- error validations(failed) -->
+  <test thread-count="5" parallel="tests" name="submit order(failed)" verbose="0">
+    <classes>
+      <class name="learningselenium.Tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+          <include name="orderHistoryTest"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- learningselenium.Tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- submit order(failed) -->
 </suite> <!-- Failed suite [Suite] -->

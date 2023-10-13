@@ -11,7 +11,7 @@
           <include name="launchApplication"/>
           <include name="closeApplication"/>
           <include name="orderHistoryTest"/>
-          <include name="submitOrder" invocation-numbers="0"/>
+          <include name="submitOrder"/>
         </methods>
       </class> <!-- learningselenium.Tests.SubmitOrderTest -->
     </classes>
@@ -22,6 +22,7 @@
         <methods>
           <include name="launchApplication"/>
           <include name="closeApplication"/>
+          <include name="LoginErrorValidation"/>
           <include name="ProductErrorValidation"/>
         </methods>
       </class> <!-- learningselenium.Tests.ErrorValidationsTest -->
